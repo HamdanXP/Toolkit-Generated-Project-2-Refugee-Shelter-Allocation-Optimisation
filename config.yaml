@@ -1,0 +1,18 @@
+# Shelter Optimization Configuration
+
+# File paths
+input_file: 'data/input.csv'
+output_file: 'data/assignments.xlsx'
+
+# Optimization parameters
+max_iterations: 1000
+time_limit_seconds: 300
+
+# Ethical considerations
+anonymize_data: true
+fair_distribution: true
+prioritize_special_needs: true
+
+# Logging
+log_file: 'logs/optimizer.log'
+log_level: 'INFO'
